@@ -1,0 +1,41 @@
+.playlist-items {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.image-track {
+  display: flex;
+  align-items: center;
+}
+.track-image {
+  height: 180px;
+  width: 250px;
+  margin-right: 15px;
+}
+.track-info {
+  display: flex;
+  flex-direction: column;
+}
+.track-name {
+  font-family: roboto;
+  font-size: 25px;
+  color: #cbd5e1;
+}
+.track-genre {
+  font-family: roboto;
+  font-size: 25px;
+  color: #3b82f6;
+}
+.duration-delete {
+  display: flex;
+  align-items: center;
+}
+.button {
+  background: none;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}

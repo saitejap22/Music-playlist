@@ -1,0 +1,44 @@
+.playlist-container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #152850;
+  padding: 30px;
+}
+.head-searchbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.play-heading {
+  font-size: 30px;
+  font-family: roboto;
+  color: #ffffff;
+  padding-left: 35px;
+}
+.input-container {
+  background: transparent;
+  border: 1px solid #ffffff;
+  height: 40px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+}
+.input {
+  background: transparent;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  color: #cbd5e1;
+  padding-left: 10px;
+}
+.no-songs-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.no-songs {
+  font-size: 30px;
+  font-family: roboto;
+  color: #ffffff;
+}
